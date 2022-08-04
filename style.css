@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+   
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+ background: #E5E5E5;
+}
+
+h1, legend, button {
+  font-family: 'Staatliches', cursive;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: 107px;
+  background: #293241;
+}
+
+header::before {
+  content: ''; /* obrigatório no uso do ::before */
+  width: 100%;
+  height: 465px;
+  
+}
+
+header h1 {
+  font-weight: 400;
+ font-size: 36px;
+ line-height: 45px;
+  margin: auto ;
+ width: 282px;
+ height: 45px;
+
+ 
+
+
+ color: #FFFFFF;
+}
+
+header p {
+  font-size: 16px;
+  line-height: 24px;
+ margin: auto;
+  width: 388px;
+  height: 24px;
+
+  margin-bottom: 24px;
+  
+
+color: #FFFFFF;
+}
+
+header form {
+  width: 750px;
+ height: 133px;
+ margin: auto;
+ margin-top: 32px;
+ background: #F67669;
+ border-radius: 20px 20px 0 0; 
+ 
+}
+
+
+header fieldset {
+  border: none;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  
+}
+
+header fieldset legend {
+  font-size: 24px;
+line-height: 34px;
+
+width: 100%;
+height: 100%;
+margin: auto;
+
+padding: 50px 0;
+
+color: #FFFFFF;
+}
+/* Daqui pra cima é cabeçalho */
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+.my-form {
+ display: flex;
+ flex-direction: column;
+  min-height: 1075px;
+
+  padding: 32px 64px 0;
+
+  background: #FFFFFF;
+  border-radius: 0 0 20px 20px;
+}
+
+fieldset {
+  border: none;
+  margin: 0 auto;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapperr input {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 18px;
+ width: 300px;
+ height: 56px;
+
+
+
+  background: #FAFAFC;
+/* Back / Lines in white */
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+}
+
+.input-wrapper, .input-wrapperr input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 56px;
+  margin-top: 8px;
+  padding: 0 24px;
+  background: #FAFAFC;
+/* Back / Lines in white */
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+}
+
+#fild-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+#leg-2 {
+  font-size: 24px;
+ line-height: 34px;
+ text-align: center;
+ width: 100%;
+ padding-bottom: 8px;
+ margin: 0 auto;
+ border-bottom: 1px solid #E6E6F0;
+ margin-bottom: 32px;
+color: #253B51;
+}
+
+select {
+  width: 300px;
+  height: 56px;
+
+  margin-top: 8px;
+  margin-bottom: 32px;
+  background: #FAFAFC;
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+textarea {
+  padding: 20px 24px;
+  margin-bottom: 30px;
+  background: #FAFAFC;
+/* Back / Lines in white */
+
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+}
+
+#check {
+  display: flex;
+}
+
+#check legend {
+  width: 465px;
+  height: 24px;
+  margin: auto;
+  font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #4E4958;
+}
+
+#check input {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+/* fecha aqui fieldset 2 */
+
+#fild-3 {
+  width: 100%;
+  
+
+}
+
+#leg-3 {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid #E6E6F0;
+
+
+ /* identical to box height, or 142% */
+
+  color: #253B51;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+#fild-3 .input-wrappers input {
+  background: #FAFAFC;
+  /* Back / Lines in white */
+  
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+#fild-3 .input-wrappers #date {
+  width: 300px;
+  height: 60px;
+}
+
+#fild-3 .input-wrappers #event-begin {
+width: 140px;
+height: 60px;
+}
+
+#fild-3 .input-wrappers #event-end {
+width: 140px;
+height: 60px;
+}
+
+button {
+  font-size: 20px;
+line-height: 26px;
+ color: #FFFFFF;
+  width: 622px;
+  height: 52px;
+
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+
+  margin-top: 64px;
+
+ border: none;
+  background: #F67669;
+  border-radius: 8px;
+}
+
+span {
+  font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #C1BCCC;
+}
